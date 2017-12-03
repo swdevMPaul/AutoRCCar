@@ -21,7 +21,7 @@ try:
     with picamera.PiCamera() as camera:
         camera.resolution = (320, 240)      # pi camera resolution
         camera.framerate = 10               # 10 frames/sec
-        time.sleep(2)                       # give 2 secs for camera to initilize
+        time.sleep(2)                       # give 2 secs for camera to initialize
         start = time.time()
         stream = io.BytesIO()
         
